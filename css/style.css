@@ -1,0 +1,189 @@
+
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.img-adaptive {
+    width: 100%;
+    height: auto;
+    object-fit: cover;	
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0px;
+}
+
+header{
+	height: 160px;
+}
+
+header div img{
+	display: inline-block;
+	margin-top: 70px;
+}
+
+header nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav ul li{
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 70px 0 0 80px;
+}
+
+header nav ul li a{
+	color:#626262;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+section.content-post{
+	margin-top: 90px;
+	padding: 0 80px !important;
+}
+
+section.content-post div.category a, section.content-post a.comment{
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+section.content-post h2{
+	color: #626262;
+	font-size: 30px;
+}
+
+section.content-post div.content{
+	color: #626262;
+	font-size: 14px;
+}
+
+section.content-post div.category a:hover, section.content-post a.comment:hover{
+	text-decoration: underline;
+}
+
+section.next-post{
+	margin-top: 90px;
+	padding: 0 80px !important;
+}
+
+section.next-post div.category a, section.content-post a.comment{
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 30px 0;
+	display: block;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+section.next-post h2{
+	color: #626262;
+	font-size: 30px;
+}
+
+section.next-post div.content{
+	color: #626262;
+	font-size: 14px;
+}
+
+section.next-post div.post{
+	margin-bottom: 130px;
+}
+
+section.newsletter{
+	height: 280px;
+	background: #f0f0f0;
+	padding-top: 70px;
+}
+section.newsletter div.sign{
+	color: #626262;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+section.newsletter form{
+	width: 400px;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+	padding-bottom: 6px;
+}
+section.newsletter form input{
+	border: none;
+	background: inherit;
+}
+section.newsletter form button{
+	float: right;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+div.more{
+	text-align: center;
+}
+
+div.more a{
+	color: #626262;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px;
+	border: 1px solid #000;
+	display: inline-block;
+}
+
+footer{
+	padding: 40px 0;
+	background: #f0f0f0;
+	margin-top: 1000px;
+	font-family: 'Playfair Display';
+	display: flex;
+}
+
+div.right.col-6 a,
+div.left.col-6 a {
+	text-decoration: none;
+	font-family: 'Playfair Display';
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #626262;;
+	padding-right: 15px;
+}
+
+.col-12.more a{
+	padding: 15px 35px;
+	border-color: #626262;
+}
+
+.col-12.more a:hover{
+	background-color: #626262;
+	color: #fff;
+	transition: 1s;
+}
+
+div.right.col-6 a:hover,
+div.left.col-6 a:hover{
+	color: #fff;
+	transition: 1s;
+}
+
+div.right.col-6{
+	display: block;
+	text-align: right;
+}
+
